@@ -6,6 +6,7 @@ export class Utils {
     return parse(url, true);
   }
 
+  // /* istanbul ignore next */ //.Ignorálja a kövi funkciót, v osztályt a lefedettségi mérőből
   public static toUpperCase(arg: string): string {
     return arg.toUpperCase();
   }

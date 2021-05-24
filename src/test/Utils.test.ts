@@ -24,7 +24,7 @@ describe('Utils test suite', () => {
     };
     expect(res.query).toEqual(expectedQuery);
   });
-  test('invalid URL', () => {
+  test.only('invalid URL', () => {
     try {
       Utils.parseUrl('');
     }
